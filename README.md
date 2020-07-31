@@ -11,4 +11,4 @@ These are what this app demonstrates
 2. With a TOC or table of content, rearrange map layers, remove a layer, show or hide a map layer, and setup layer symbology
 3. Shapefile layer attributes can be viewed in a table. 
 
-There will be additional functionality that I will add in the future
+There will be functionality that I will add in the future
