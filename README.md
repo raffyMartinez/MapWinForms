@@ -20,8 +20,8 @@ There is a project named Owf.Controls.Office2007ColorPicker that is embedded in 
 ### Notes when using MapWinGIS 5.2 and above
 The first parameter of ShapeDrawingOption.DrawLine and ShapeDrawingOption.DrawRectange is a pointer to graphics object. That graphics object will be used to depict the symbology of the layer in a form that shows a list of layers (i.e. map layers TOC). Building the project with the latest version of the ocx will cause an error because of changes to the first parameter's signature. Just convert the pointer from an IntPtr struct to an int32. In my case this is what I did
 
-Older version of ocx
+Older version of ocx<br>
 `_options.DrawRectangle(ptr, 40.0f, 40.0f, rect.Width - 80, rect.Height - 80, true, rect.Width, rect.Height, Colors.ColorToUInteger(this.BackColor));`
 
-Newer version of ocx
+Newer version of ocx<br>
 `_options.DrawRectangle(ptr.ToInt32(), 40.0f, 40.0f, rect.Width - 80, rect.Height - 80, true, rect.Width, rect.Height, Colors.ColorToUInteger(this.BackColor));`
