@@ -14,4 +14,4 @@ These are what this app demonstrates
 There will be functionality that I will add in the future
 
 ### Notes on Office2007ColorPicker
-There is a project named Owf.Controls.Office2007ColorPicker that is embedded in this solution. You need to build this project to build Office2007ColorPicker.dll. Afterwards, just reference this dll in MapWinForms project.
+There is a project named Owf.Controls.Office2007ColorPicker that is embedded in this solution. You need to build this project to generate Office2007ColorPicker.dll. Afterwards, just reference this dll in MapWinForms project.
